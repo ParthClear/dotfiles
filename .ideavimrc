@@ -1,0 +1,16 @@
+source ~/.vimrc
+let mapleader= " "
+set ideajoin
+map <leader>a <Action>(Unscramble)
+map <leader>h <Action>(Vcs.ShowHistoryForBlock)
+map <leader>q <Action>(VimPluginToggle)
+map <leader>d <Action>(Debug)
+map <leader>s <Action>(Stop)
+map gi <Action>(GotoImplementation)
+map <leader>r <Action>(RenameElement)
+map <leader>b <Action>(ToggleLineBreakpoint)
+map <leader>g <Action>(FindInPath)
+map <leader>f <Action>(SearchEverywhere)
+map <leader>t <Action>(ActivateTerminalToolWindow)
+map <leader>z <Action>(ToggleDistractionFreeMode)
+map <leader>= <Action>(ReformatCode)
